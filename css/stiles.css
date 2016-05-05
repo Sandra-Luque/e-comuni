@@ -17,12 +17,18 @@ p{
 	font-size: 1.5em;
 	font-family: "Open Sans", Arial, sans-serif;
 	text-align: center;
+	padding-top: 30px;
+}
+.images-1{
+	position: relative;
+
 }
 h1{
 	text-transform: uppercase;
 	font-size: 2em;
 	text-align: center;
 }
+
 #header{
 	background: #fff;
 }
@@ -38,19 +44,19 @@ h1{
 }
 .cont-logoo h1{
 	text-transform: uppercase;
-	margin-top: 60px;
+	margin-top: 20px;
 	text-align: center;
 	color: #fff;
 	font-size: 3em;
 }
 .logo-port{
-	margin:  5% 40%;
+	margin:  10% 40%;
 	background: url(../img/logito-2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 200px;
+	background-position: center;
+	height: 150px;
 }
-
 
 #text_slider{
 	position: relative;
@@ -71,7 +77,7 @@ h1{
 }
 .cont-conc a{
 	position: absolute;
-	top: 85%;
+	top: 70%;
 	left: 45%;
  	border-radius:3px;	
 	font-family: 'Montserrat', sans-serif;
@@ -190,23 +196,21 @@ somos
 }
 .images-1{
 	background: #0977ac;
+	transition: 1s;
+}
+.images-1:hover{
+	background-image: url(../img/fondoteoria.jpg);
+	transition: 1s;
+	color: #fff;
 }
 .images-2{
-	background: #0977ac;}
-.images-3{
-	background: #0977ac;}
-.images-4{
-	background: #0977ac;}
-.images-5{
-	background: #336699;}
-.images-6{
-	background: #0977ac;}
-.images-7{
-	background: #336699;}
-
-
-
-
+	background: #0977ac;
+	transition: 1s;
+}
+.images-2:hover{
+	background-image: url(../img/fondoteoria.jpg);
+	transition: 1s;
+}
 
 /*FIN SECCION AREAS DE INTERES*/
 /*SECCION NUESTRO EQUIPO*/
@@ -234,10 +238,16 @@ somos
 	color: #f9a32f;
 	font-size: 1.5em;
 	margin-top: 0;
+	text-align: center;
+	font-size: 18px;
 }
 .info-miembro{
 	font-size: 12px;
 	margin-top: 0px;
+
+}
+.info-miembro p{
+	text-align: center;
 }
 .lista{
 	display: flex;
