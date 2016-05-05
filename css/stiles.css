@@ -102,24 +102,16 @@ h1{
 /*----------------------------------------
 menu
 -----------------------------------------*/
-.logoti{
-	background: url(../img/logo.png);
-	height: 55px;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
 nav{
-	height: 70px;
+	height: 90px;
+	background: #2ea3f2;
 }
 .g-menu{
 	max-width: 100%;
 	position:relative;
-	background: #2ea3f2;
+	
 }
-.cont-logo{
-	height: 60px;
-	overflow: hidden;
-}
+
 .cont-menu{
 	position: absolute;
 	text-align: center;
@@ -134,9 +126,7 @@ nav{
 	
 }
 .menu li{
-	flex: auto;
-	border-bottom: 2px solid #fff;
-	
+	flex: auto;	
 }
 .menu li:hover{
 	border-bottom: 2px solid #99cccc;
@@ -145,6 +135,7 @@ nav{
 .menu li a{
 	color: #fff;
 	padding-bottom: 10px;
+	margin-top: 10px;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.5em;
 	display: block;
@@ -161,8 +152,9 @@ nav{
 	height: 70px;
 	z-index: 1000;	
 	font-family: 'Roboto Condensed', sans-serif;
+	height: 90px;
+	background: #2ea3f2;
 }
-
 
 /*----------------------------------------
 somos
@@ -408,6 +400,27 @@ actividades
 	text-transform: uppercase;
 
 }
+
+
+/*SECCION ENSAYO*/
+.grupo .ima{
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+.grupo .titulo{
+	margin:  0 auto;
+	height: 400px;
+	
+}
+.grupo .ima img{
+	height: 100%;
+	width: 400px;
+}
+
+/*FIN SECCION ENSAYO*/
+
+
 /*----------------------------------------
 contactanos
 -----------------------------------------*/
