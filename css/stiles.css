@@ -246,8 +246,8 @@ somos
 	margin-top: 0px;
 
 }
-.info-miembro p{
-	text-align: center;
+.miembro .apell{
+	margin-top: -15px;
 }
 .lista{
 	display: flex;
