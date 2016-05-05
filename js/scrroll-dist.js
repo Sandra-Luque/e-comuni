@@ -1,0 +1,2 @@
+var $nav=$(".g-menu"),$navTop=$nav.offset().top,pegarNav=function(){var o=$(window).scrollTop();o>=$navTop?$nav.addClass("sticky"):$nav.removeClass("sticky")};$(window).on("scroll",pegarNav);
+//# sourceMappingURL=scrroll-dist.js.map
