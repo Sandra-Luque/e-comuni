@@ -401,6 +401,16 @@ actividades
 
 }
 
+.divi hr{
+	background: #A4A4A4;
+	opacity: .2;
+	height: 4px;
+	width: 90%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
 
 /*SECCION ENSAYO*/
 .grupo .ima{
