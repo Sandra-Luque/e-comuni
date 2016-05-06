@@ -6,7 +6,7 @@
  	color: #2b2b2b;
  }
 section{
-	padding-top: 70px;
+	padding-top: 90px;
 }
 p{
 	font-size: 1.5em;
@@ -238,8 +238,8 @@ somos
 	margin-top: 0px;
 
 }
-.info-miembro p{
-	text-align: center;
+.miembro .apell{
+	margin-top: -15px;
 }
 .lista{
 	display: flex;
@@ -427,7 +427,21 @@ actividades
 	height: 100%;
 	width: 400px;
 }
-
+.titulo a{
+	color: #fff;
+	margin: 10px;
+	
+}
+.titulo button{
+	background-color: rgba(24, 49, 102, 1);
+	border-bottom: #02afff;
+	border-radius: 10px;
+}
+.titulo button:hover{
+	height: 30px;
+	background-color: #02afff;
+	border-bottom: #02afff;
+}
 /*FIN SECCION ENSAYO*/
 
 
